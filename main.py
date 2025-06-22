@@ -22,7 +22,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - [%(funcName)s:%(lineno)d] - %(message)s'
 )
 
-# Load configuration from .env file
 load_dotenv()
 USERNAME = os.getenv('ICICI_USERNAME')
 PASSWORD = os.getenv('ICICI_PASSWORD')
