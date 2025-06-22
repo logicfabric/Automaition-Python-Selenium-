@@ -15,7 +15,6 @@ from dotenv import load_dotenv
 from retrying import retry
 from tabulate import tabulate
 
-# logging.basicConfig(
 # Setup logging with detailed format
 logging.basicConfig(
     level=logging.INFO,
