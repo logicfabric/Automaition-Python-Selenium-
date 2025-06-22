@@ -23,6 +23,7 @@ logging.basicConfig(
 )
 
 # Load configuration from .env file
+# load_dotenv()
 load_dotenv()
 USERNAME = os.getenv('ICICI_USERNAME')
 PASSWORD = os.getenv('ICICI_PASSWORD')
