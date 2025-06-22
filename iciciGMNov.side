@@ -1,0 +1,531 @@
+{
+  "id": "9d0a0dfc-8468-4bf5-96e8-5813c209cff6",
+  "version": "2.0",
+  "name": "ICICIDirect",
+  "url": "https://secure.icicidirect.com",
+  "tests": [{
+    "id": "d7935dff-4368-4c71-bdcf-6f0941a3953d",
+    "name": "ICICIDirectDownload",
+    "commands": [{
+      "id": "5f3c920c-0c69-49b8-bccb-9be7649eed60",
+      "comment": "",
+      "command": "open",
+      "target": "/customer/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19acfe8c-ca40-4390-9b92-a140be7e4185",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5389744-a4c4-4afa-b99a-6239f11afd5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtp",
+      "targets": [
+        ["id=txtp", "id"],
+        ["css=#txtp", "css:finder"],
+        ["xpath=//input[@id='txtp']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div[4]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d957ec0b-ef4b-40af-b6ee-afdd31a86e64",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtp",
+      "targets": [
+        ["id=txtp", "id"],
+        ["css=#txtp", "css:finder"],
+        ["xpath=//input[@id='txtp']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div[4]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input[2]", "xpath:position"]
+      ],
+      "value": "gautRa1n"
+    }, {
+      "id": "6f2f612a-0a1b-4da9-ad04-79c2735e8d38",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnlogin",
+      "targets": [
+        ["id=btnlogin", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#btnlogin", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='btnlogin']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[3]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f647ed-1b55-4ae5-9283-62c6c5eb7c1a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Trade Book",
+      "targets": [
+        ["linkText=Trade Book", "linkText"],
+        ["css=.border-rightdark:nth-child(6) > .sub-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade Book')]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[56]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99e99e74-9cf9-4fa9-a388-942a31a5b2e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trade Book",
+      "targets": [
+        ["linkText=Trade Book", "linkText"],
+        ["css=.border-rightdark:nth-child(6) > .sub-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade Book')]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[56]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50d46398-075e-4b67-b58a-2ee42f711dde",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.current > .sub-navlink",
+      "targets": [
+        ["css=.current > .sub-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade Book')]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[56]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "110d15b6-721b-4c1b-be78-90de3a44d05c",
+      "comment": "",
+      "command": "click",
+      "target": "id=hypPeriod",
+      "targets": [
+        ["id=hypPeriod", "id"],
+        ["linkText=11/08/2024", "linkText"],
+        ["css=#hypPeriod", "css:finder"],
+        ["xpath=//a[contains(text(),'11/08/2024')]", "xpath:link"],
+        ["xpath=//a[@id='hypPeriod']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//form/div[2]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'11/08/2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "317221cf-79a6-456f-8723-5c9646ea8e25",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > label:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2) > label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[3]/div/div/div/ul/li[2]/label", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/ul/li[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'1 Week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c5b194-e4fd-4438-b154-c77f2a5724a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnview",
+      "targets": [
+        ["id=btnview", "id"],
+        ["css=#btnview", "css:finder"],
+        ["xpath=//input[@id='btnview']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[6]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea34b558-94aa-4d93-9259-b0da5346b8ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnview",
+      "targets": [
+        ["id=btnview", "id"],
+        ["css=#btnview", "css:finder"],
+        ["xpath=//input[@id='btnview']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[6]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddc26479-ab4f-4de6-881b-e22148b11152",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=btnview",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a23ff13c-d9c7-4e11-9833-bca6c9373764",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pull-right ul.grid_menu li a.dropdown",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d84e05a-2009-457b-8fc1-d6481233d107",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSV",
+      "targets": [
+        ["linkText=CSV", "linkText"],
+        ["css=li:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSV')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"CallExport({'PageHandler':equity,'PageCode':'eqtrdbook','PostFormName':'frm','ExpotType':'csv','FileName':'6500081466_tradeBook'})\"]", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[72]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80075eba-45ad-4c71-9800-50384fa76063",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-rightdark:nth-child(2) > .sub-navlink",
+      "targets": [
+        ["css=.border-rightdark:nth-child(2) > .sub-navlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Portfolio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[52]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "def8f3b1-85dd-40d9-9fc1-878a0c3a8794",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.border-rightdark:nth-child(2) > .sub-navlink",
+      "targets": [
+        ["css=.border-rightdark:nth-child(2) > .sub-navlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Portfolio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[52]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80b008c9-e35d-450f-9331-8efe1b28f1c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.current > .sub-navlink",
+      "targets": [
+        ["css=.current > .sub-navlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Portfolio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[52]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "682f1817-c3aa-41a4-9880-26cd62202a23",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pull-right ul.grid_menu li:nth-child(3) a.dropdown",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf455e71-be3e-44d7-be3c-40d32ac85e48",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summary: CSV",
+      "targets": [
+        ["linkText=Summary: CSV", "linkText"],
+        ["css=li:nth-child(3) > .dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Summary: CSV')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"CallExport({'PageHandler':equity,'PageCode':'eqpfdtls','PostFormName':'frm','ExpotType':'csv','FileName':'6500081466_PortFolioEqtSummary'})\"]", "xpath:attributes"],
+        ["xpath=//div[@id='personal']/div/div/div[2]/div[2]/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[82]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Summary: CSV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebc204c3-6620-415d-889d-357de1d788c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mrl10",
+      "targets": [
+        ["css=.mrl10", "css:finder"],
+        ["xpath=//a[@id='dropdownMenuButton1']/span[2]", "xpath:idRelative"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'6500081466')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b13f94d-c6c2-4ffe-9e52-ebfbc20d5737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-2:nth-child(2) .fw-bold",
+      "targets": [
+        ["css=.p-2:nth-child(2) .fw-bold", "css:finder"],
+        ["xpath=//div[@onclick=\"TINY.box.show({'handler':trade,'pageCode':'selectmdp','MsgTitle':'Select <span>Account</span>','close':1,'width':700,'postData':'forlogin=1' })\"]", "xpath:attributes"],
+        ["xpath=//div[@id='pnlHeadLogin']/div[10]/ul/li[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4220dc1-1fa7-45db-9ea7-262df6cfcfa5",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=drpAccount",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba0069ac-e4e5-4128-a267-488bea9f4078",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpAccount",
+      "targets": [],
+      "value": "label=IN303028-76957818-7500062485-NRO"
+    }, {
+      "id": "247dedd9-59de-4fb8-b01c-e93a9767cca7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-short",
+      "targets": [
+        ["css=.btn-short", "css:finder"],
+        ["xpath=//input[@value='Select']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlSelMDP']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10a386be-79bb-4289-858f-6f35a1831e3c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trade Book",
+      "targets": [
+        ["linkText=Trade Book", "linkText"],
+        ["css=.border-rightdark:nth-child(6) > .sub-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade Book')]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[55]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fffb292-9b82-422b-aab6-c5dd76647143",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Trade Book",
+      "targets": [
+        ["linkText=Trade Book", "linkText"],
+        ["css=.border-rightdark:nth-child(6) > .sub-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade Book')]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[55]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fb42f2-244f-4ea1-95e2-613b0048131a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.current > .sub-navlink",
+      "targets": [
+        ["css=.current > .sub-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade Book')]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[55]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28626de0-5b65-46f3-85fa-228eb8cec8e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=hypPeriod",
+      "targets": [
+        ["id=hypPeriod", "id"],
+        ["linkText=11/08/2024", "linkText"],
+        ["css=#hypPeriod", "css:finder"],
+        ["xpath=//a[contains(text(),'11/08/2024')]", "xpath:link"],
+        ["xpath=//a[@id='hypPeriod']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//form/div[2]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'11/08/2024')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c65b100d-103a-46b7-9536-f4ee7010bf03",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > label:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2) > label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[3]/div/div/div/ul/li[2]/label", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/ul/li[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'1 Week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d96b0c-de2e-4b14-864f-ac5088fb68c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnview",
+      "targets": [
+        ["id=btnview", "id"],
+        ["css=#btnview", "css:finder"],
+        ["xpath=//input[@id='btnview']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[6]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73f40e59-40a4-4930-a9eb-01869b024cd2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnview",
+      "targets": [
+        ["id=btnview", "id"],
+        ["css=#btnview", "css:finder"],
+        ["xpath=//input[@id='btnview']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[6]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4baa552f-1199-4cb8-a798-61e95405a7a6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnview",
+      "targets": [
+        ["id=btnview", "id"],
+        ["css=#btnview", "css:finder"],
+        ["xpath=//input[@id='btnview']", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div/ul/li[6]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e41dd47-4870-4652-a458-7cc32b15f950",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pull-right ul.grid_menu li a.dropdown",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a289a514-5b98-4db3-b6e3-7fb9aee021ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CSV",
+      "targets": [
+        ["linkText=CSV", "linkText"],
+        ["css=li:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CSV')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"CallExport({'PageHandler':equity,'PageCode':'eqtrdbook','PostFormName':'frm','ExpotType':'csv','FileName':'7500062485_tradeBook'})\"]", "xpath:attributes"],
+        ["xpath=//div[@id='dvequity']/div/div[2]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[71]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CSV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f052e0e-80c1-466a-a5fd-c1773db0d11a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.border-rightdark:nth-child(2) > .sub-navlink",
+      "targets": [
+        ["css=.border-rightdark:nth-child(2) > .sub-navlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Portfolio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[51]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e668467-9eb9-4c0d-829a-c161581794e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-rightdark:nth-child(2) > .sub-navlink",
+      "targets": [
+        ["css=.border-rightdark:nth-child(2) > .sub-navlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Portfolio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[51]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e3518b-c317-40fb-a915-84d5e609c25e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.current > .sub-navlink",
+      "targets": [
+        ["css=.current > .sub-navlink", "css:finder"],
+        ["xpath=(//a[contains(text(),'Portfolio')])[2]", "xpath:link"],
+        ["xpath=//div[@id='pnlmnudsp']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[51]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5296ebf1-987a-44ea-9e5a-5ff1b067039a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Family",
+      "targets": [
+        ["linkText=Family", "linkText"],
+        ["css=.pull-left > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Family')]", "xpath:link"],
+        ["xpath=//a[@onclick='f_portfolioDisplay();']", "xpath:attributes"],
+        ["xpath=//div[@id='dvfmtag']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#family')]", "xpath:href"],
+        ["xpath=//form/div[2]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Family')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe9681c9-2ed1-4153-8bfa-feb8e986878e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pull-right ul.grid_menu li:nth-child(3) a.dropdown",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ec4bcba-773d-4cb1-8b73-d02456774687",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Summary: CSV",
+      "targets": [
+        ["linkText=Summary: CSV", "linkText"],
+        ["css=li:nth-child(3) > .dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Summary: CSV')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"CallExport({'PageHandler':equity,'PageCode':'eqpfdtls','PostFormName':'frm','ExpotType':'csv','FileName':'7500062485_PortFolioEqtSummary'})\"]", "xpath:attributes"],
+        ["xpath=//div[@id='personal']/div/div/div[2]/div[2]/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript://')])[81]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Summary: CSV')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7f29eda1-a687-42ef-b142-87e11d48d20e",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7935dff-4368-4c71-bdcf-6f0941a3953d"]
+  }],
+  "urls": ["https://secure.icicidirect.com/"],
+  "plugins": []
+}

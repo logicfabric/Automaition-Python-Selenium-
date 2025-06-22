@@ -1,0 +1,2409 @@
+2025-05-28 14:04:04,165 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 14:04:05,024 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:04:05,800 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:04:06,562 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 14:04:07,633 - INFO - [login:122] - Starting login
+2025-05-28 14:04:25,747 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:04:26,053 - INFO - [login:130] - Login button clicked
+2025-05-28 14:04:27,088 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:05:30,497 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:05:30,497 - INFO - [main:512] - Processing account IN303028-76957800-6500081466-NRE
+2025-05-28 14:05:30,497 - INFO - [switch_account:179] - Switching to account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:00,518 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 14:06:00,543 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 14:06:00,832 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:06:00,858 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 14:06:01,150 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:06:02,200 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 14:06:02,215 - INFO - [switch_account:230] - Selected account IN303028-76957800-6500081466-NRE by exact match
+2025-05-28 14:06:02,233 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 14:06:02,562 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:06:02,562 - INFO - [switch_account:260] - Switched to account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:03,562 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:17,711 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 14:06:30,816 - INFO - [download_portfolio:292] - Downloading Portfolio for account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:30,915 - INFO - [download_portfolio:295] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 14:06:39,685 - INFO - [show_orderbook:310] - Extracting Order Book data for account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:39,799 - INFO - [show_orderbook:315] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 14:06:42,044 - INFO - [show_orderbook:319] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:06:46,782 - INFO - [show_orderbook:331] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 14:06:46,816 - INFO - [show_orderbook:335] - Found 44 rows in Order Book table
+2025-05-28 14:06:48,743 - INFO - [show_orderbook:366] - Displayed 22 rows for account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:48,744 - INFO - [show_orderbook:375] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders.csv
+2025-05-28 14:06:48,753 - INFO - [clean_stock_column:401] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders_cleaned.csv
+2025-05-28 14:06:48,753 - INFO - [show_orderbook:380] - Extracted and displayed 22 rows from Order Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 14:06:48,753 - INFO - [main:512] - Processing account IN303028-76957818-7500062485-NRO
+2025-05-28 14:06:48,753 - INFO - [switch_account:179] - Switching to account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:19,210 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 14:07:19,230 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 14:07:19,529 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:07:19,547 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 14:07:19,836 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:07:20,877 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 14:07:20,950 - INFO - [switch_account:230] - Selected account IN303028-76957818-7500062485-NRO by exact match
+2025-05-28 14:07:20,968 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 14:07:21,262 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:07:21,262 - INFO - [switch_account:260] - Switched to account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:22,263 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:31,810 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 14:07:42,595 - INFO - [download_portfolio:292] - Downloading Portfolio for account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:42,699 - INFO - [download_portfolio:295] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 14:07:47,468 - INFO - [show_orderbook:310] - Extracting Order Book data for account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:47,564 - INFO - [show_orderbook:315] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 14:07:49,712 - INFO - [show_orderbook:319] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:07:52,304 - INFO - [show_orderbook:331] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 14:07:52,314 - INFO - [show_orderbook:335] - Found 8 rows in Order Book table
+2025-05-28 14:07:52,625 - INFO - [show_orderbook:366] - Displayed 4 rows for account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:52,626 - INFO - [show_orderbook:375] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders.csv
+2025-05-28 14:07:52,634 - INFO - [clean_stock_column:401] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders_cleaned.csv
+2025-05-28 14:07:52,634 - INFO - [show_orderbook:380] - Extracted and displayed 4 rows from Order Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 14:07:52,634 - INFO - [main:512] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:07:52,634 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:08:23,119 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 14:08:23,137 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 14:08:23,431 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:08:23,449 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 14:08:23,747 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:08:25,788 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 14:08:25,859 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 14:08:25,879 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 14:08:26,155 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:08:26,155 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:08:27,155 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:08:39,031 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748459318.png
+2025-05-28 14:08:39,055 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748459318.html
+2025-05-28 14:08:39,069 - ERROR - [download_tradebook:286] - Failed to download Trade Book for account IN303028-76957826-7510072528-NPNRO: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E795C]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E9335]
+	(No symbol) [0x0036F531]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 272, in download_tradebook
+    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Trade Book"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 634, in _predicate
+    element = visibility_of(target)(driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 260, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 280, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 340, in is_displayed
+    return self.parent.execute_script(f"/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);", self)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 547, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E795C]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E9335]
+	(No symbol) [0x0036F531]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:08:41,070 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:08:41,173 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 14:08:51,330 - INFO - [download_portfolio:292] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:08:51,447 - INFO - [download_portfolio:295] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 14:08:56,099 - INFO - [show_orderbook:310] - Extracting Order Book data for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:08:56,202 - INFO - [show_orderbook:315] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 14:08:58,788 - INFO - [show_orderbook:319] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:09:00,452 - INFO - [show_orderbook:331] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 14:09:00,476 - INFO - [show_orderbook:335] - Found 1 rows in Order Book table
+2025-05-28 14:09:00,494 - WARNING - [show_orderbook:360] - No data rows found in Order Book table for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:09:00,496 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:09:00,579 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 14:09:40,512 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 14:09:40,519 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 14:09:50,865 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 14:09:50,871 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 14:10:18,601 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:10:54,424 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748459454.png
+2025-05-28 14:10:54,446 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748459454.html
+2025-05-28 14:10:54,447 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:10:56,448 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:11:32,212 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748459492.png
+2025-05-28 14:11:32,242 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748459492.html
+2025-05-28 14:11:32,242 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:11:34,242 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:12:04,302 - ERROR - [save_debug_info:82] - Failed to save debug info: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002BFBC9]
+	(No symbol) [0x00353CBE]
+	(No symbol) [0x0036DF19]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+2025-05-28 14:12:04,316 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: 'NoneType' object has no attribute 'is_displayed'
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 634, in _predicate
+    element = visibility_of(target)(driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 260, in _predicate
+    return _element_if_visible(element)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 280, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+
+2025-05-28 14:12:04,316 - ERROR - [main:525] - Failed processing account IN303028-76957826-7510072528-NPNRO: 'NoneType' object has no attribute 'is_displayed'
+2025-05-28 14:12:06,489 - INFO - [main:531] - Browser closed
+2025-05-28 14:13:42,838 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 14:13:43,676 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:13:44,445 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:13:45,211 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 14:13:46,275 - INFO - [login:122] - Starting login
+2025-05-28 14:14:01,049 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:14:01,252 - INFO - [login:130] - Login button clicked
+2025-05-28 14:14:02,282 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:15:03,248 - INFO - [login:163] - Still on OTP page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:15:05,255 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:16:05,961 - INFO - [login:163] - Still on OTP page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:16:07,971 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:17:08,534 - INFO - [login:163] - Still on OTP page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:17:10,640 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_login_1748459830.png
+2025-05-28 14:17:10,648 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_login_1748459830.html
+2025-05-28 14:17:10,648 - ERROR - [login:173] - Login failed: Login failed: Did not reach dashboard within 180 seconds
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 170, in login
+    raise TimeoutError(f"Login failed: Did not reach dashboard within {CONFIG['login_timeout']} seconds")
+TimeoutError: Login failed: Did not reach dashboard within 180 seconds
+
+2025-05-28 14:17:10,649 - ERROR - [main:528] - Script failed: Login failed: Did not reach dashboard within 180 seconds
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 510, in main
+    login()
+  File "D:\Upwork project\Automation\main.py", line 170, in login
+    raise TimeoutError(f"Login failed: Did not reach dashboard within {CONFIG['login_timeout']} seconds")
+TimeoutError: Login failed: Did not reach dashboard within 180 seconds
+
+2025-05-28 14:17:12,785 - INFO - [main:531] - Browser closed
+2025-05-28 14:45:46,166 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 14:45:46,932 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:45:47,953 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:45:48,723 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 14:45:50,663 - INFO - [login:122] - Starting login
+2025-05-28 14:46:15,741 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:46:15,938 - INFO - [login:130] - Login button clicked
+2025-05-28 14:46:16,978 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:46:51,071 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:46:51,071 - INFO - [main:512] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:46:51,071 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:47:21,436 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 14:47:21,457 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 14:47:21,746 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:47:21,764 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 14:47:22,070 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:47:23,119 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 14:47:23,259 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 14:47:23,276 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 14:47:23,565 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:47:23,565 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:47:24,568 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:47:35,337 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 14:48:07,644 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 14:48:07,648 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 14:48:17,971 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 14:48:17,976 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 14:48:31,185 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:49:07,326 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748461747.png
+2025-05-28 14:49:07,348 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748461747.html
+2025-05-28 14:49:07,349 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:49:09,363 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:49:45,053 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748461784.png
+2025-05-28 14:49:45,076 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748461784.html
+2025-05-28 14:49:45,076 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:49:47,076 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:50:05,446 - WARNING - [urlopen:868] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/4b2e1868a925ad95306d64ab61fe60ff
+2025-05-28 14:50:23,002 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 14:50:23,800 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:50:24,567 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:50:25,332 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 14:50:26,380 - INFO - [login:122] - Starting login
+2025-05-28 14:50:43,903 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:50:44,107 - INFO - [login:130] - Login button clicked
+2025-05-28 14:50:45,149 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:51:38,903 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:51:38,903 - INFO - [main:512] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:51:38,903 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:52:09,137 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 14:52:09,159 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 14:52:09,468 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:52:09,486 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 14:52:09,779 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:52:11,285 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 14:52:11,427 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 14:52:11,455 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 14:52:11,748 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:52:11,748 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:52:12,761 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:52:24,652 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 14:53:06,174 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 14:53:06,181 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 14:53:16,538 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 14:53:16,542 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 14:53:29,768 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:54:04,802 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748462044.png
+2025-05-28 14:54:04,826 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748462044.html
+2025-05-28 14:54:04,827 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]/input"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:54:06,848 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:54:49,155 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748462089.png
+2025-05-28 14:54:49,178 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748462089.html
+2025-05-28 14:54:49,178 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]/input"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:54:51,203 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:54:56,954 - ERROR - [save_debug_info:82] - Failed to save debug info: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E044E]
+	(No symbol) [0x0031BB08]
+	(No symbol) [0x0034D156]
+	(No symbol) [0x00348C22]
+	(No symbol) [0x003481B6]
+	(No symbol) [0x002B36C5]
+	(No symbol) [0x002B3C1E]
+	(No symbol) [0x002B40AD]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	(No symbol) [0x002B3390]
+	(No symbol) [0x002B2B9D]
+	GetHandleVerifier [0x0083877C+3701820]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+2025-05-28 14:54:56,956 - ERROR - [download_orderbook:503] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002CFE20]
+	(No symbol) [0x002EDD1F]
+	(No symbol) [0x00353E8C]
+	(No symbol) [0x0036DF19]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "(((//div[@id='MFOrderBookDiv']//div)[1]/div)[1]/ui/li)[4]/input"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002CFE20]
+	(No symbol) [0x002EDD1F]
+	(No symbol) [0x00353E8C]
+	(No symbol) [0x0036DF19]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 14:54:56,956 - ERROR - [main:525] - Failed processing account IN303028-76957826-7510072528-NPNRO: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002CFE20]
+	(No symbol) [0x002EDD1F]
+	(No symbol) [0x00353E8C]
+	(No symbol) [0x0036DF19]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+2025-05-28 14:54:58,976 - INFO - [main:531] - Browser closed
+2025-05-28 14:58:37,845 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 14:58:38,653 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:58:42,647 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 14:58:43,487 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:58:44,289 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 14:58:45,072 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 14:58:46,113 - INFO - [login:122] - Starting login
+2025-05-28 14:59:07,030 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 14:59:07,242 - INFO - [login:130] - Login button clicked
+2025-05-28 14:59:08,274 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 14:59:54,838 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 14:59:54,838 - INFO - [main:511] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 14:59:54,838 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:00:25,144 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:00:25,172 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:00:25,472 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:00:25,495 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:00:25,802 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:00:26,858 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:00:27,004 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 15:00:27,027 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:00:27,329 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:00:27,329 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:00:28,342 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:00:41,026 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:01:22,273 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:01:22,277 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:01:32,670 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:01:32,678 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:01:44,357 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:02:50,441 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748462570.png
+2025-05-28 15:02:50,464 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748462570.html
+2025-05-28 15:02:50,478 - ERROR - [download_orderbook:502] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 490, in download_orderbook
+    wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@id='MFOrderBookDiv']//ul/li[4]/input"))).click()
+  File "c:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2025-05-28 15:02:51,397 - WARNING - [urlopen:868] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/28a3d7f04c9594a5144f49517041373b
+2025-05-28 15:10:36,587 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 15:10:37,613 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:10:38,382 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:10:39,151 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 15:10:40,241 - INFO - [login:122] - Starting login
+2025-05-28 15:10:57,793 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 15:10:58,038 - INFO - [login:130] - Login button clicked
+2025-05-28 15:10:59,076 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 15:11:46,009 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:11:46,010 - INFO - [main:510] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:11:46,010 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:12:16,312 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:12:16,339 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:12:16,642 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:12:16,667 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:12:16,967 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:12:18,984 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:12:19,194 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 15:12:19,219 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:12:19,511 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:12:19,511 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:12:20,521 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:12:34,968 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:13:21,122 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:13:21,636 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:13:31,990 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:13:31,996 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:13:45,692 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:14:17,275 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463257.png
+2025-05-28 15:14:17,305 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463257.html
+2025-05-28 15:14:17,306 - ERROR - [download_orderbook:501] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: presence_of_element_located() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 493, in download_orderbook
+    download_menu = wait.until(EC.presence_of_element_located(By.XPATH, '//li[a[text()="Download"]]'))
+TypeError: presence_of_element_located() takes 1 positional argument but 2 were given
+
+2025-05-28 15:14:19,317 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:14:54,326 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463294.png
+2025-05-28 15:14:54,350 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463294.html
+2025-05-28 15:14:54,351 - ERROR - [download_orderbook:501] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: presence_of_element_located() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 493, in download_orderbook
+    download_menu = wait.until(EC.presence_of_element_located(By.XPATH, '//li[a[text()="Download"]]'))
+TypeError: presence_of_element_located() takes 1 positional argument but 2 were given
+
+2025-05-28 15:14:56,368 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:18:05,586 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463485.png
+2025-05-28 15:18:05,633 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463485.html
+2025-05-28 15:18:05,649 - ERROR - [download_orderbook:501] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: presence_of_element_located() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 493, in download_orderbook
+    download_menu = wait.until(EC.presence_of_element_located(By.XPATH, "//div[@id='MFOrderBookDiv']//div[@class='pull-right']"))
+TypeError: presence_of_element_located() takes 1 positional argument but 2 were given
+
+2025-05-28 15:18:05,649 - ERROR - [main:523] - Failed processing account IN303028-76957826-7510072528-NPNRO: presence_of_element_located() takes 1 positional argument but 2 were given
+2025-05-28 15:18:07,835 - INFO - [main:529] - Browser closed
+2025-05-28 15:18:16,220 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 15:18:17,070 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:18:18,104 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:18:18,887 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 15:18:19,959 - INFO - [login:122] - Starting login
+2025-05-28 15:18:38,532 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 15:18:38,757 - INFO - [login:130] - Login button clicked
+2025-05-28 15:18:39,791 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 15:19:23,092 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:19:23,092 - INFO - [main:510] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:19:23,092 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:19:53,373 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:19:53,408 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:19:53,723 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:19:53,744 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:19:54,053 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:19:55,584 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:19:55,766 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 15:19:55,793 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:19:56,084 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:19:56,084 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:19:57,086 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:20:12,494 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:20:52,985 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:20:53,505 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:21:03,861 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:21:03,867 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:21:38,518 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:21:59,292 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463719.png
+2025-05-28 15:21:59,321 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463719.html
+2025-05-28 15:21:59,322 - ERROR - [download_orderbook:501] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: presence_of_element_located() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 493, in download_orderbook
+    download_menu = wait.until(EC.presence_of_element_located(By.XPATH, "//div[@id='MFOrderBookDiv']//div[@class='pull-right']"))
+TypeError: presence_of_element_located() takes 1 positional argument but 2 were given
+
+2025-05-28 15:22:01,332 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:22:14,899 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463734.png
+2025-05-28 15:22:14,921 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748463734.html
+2025-05-28 15:22:14,922 - ERROR - [download_orderbook:501] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: presence_of_element_located() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 493, in download_orderbook
+    download_menu = wait.until(EC.presence_of_element_located(By.XPATH, "//div[@id='MFOrderBookDiv']//div[@class='pull-right']"))
+TypeError: presence_of_element_located() takes 1 positional argument but 2 were given
+
+2025-05-28 15:22:16,938 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:30:47,025 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 15:30:47,930 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:30:48,707 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:30:49,476 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 15:30:50,607 - INFO - [login:122] - Starting login
+2025-05-28 15:31:07,367 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 15:31:07,618 - INFO - [login:130] - Login button clicked
+2025-05-28 15:31:08,671 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 15:32:28,870 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:32:28,870 - INFO - [main:508] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:32:28,871 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:32:59,157 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:32:59,184 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:32:59,513 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:32:59,540 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:32:59,858 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:33:01,352 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:33:01,534 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 15:33:01,576 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:33:01,872 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:33:01,872 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:33:02,873 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:33:18,427 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:34:03,548 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:34:03,553 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:34:13,927 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:34:13,939 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:34:45,914 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748464485.png
+2025-05-28 15:34:45,960 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748464485.html
+2025-05-28 15:34:46,081 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748464485.png
+2025-05-28 15:34:46,116 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748464485.html
+2025-05-28 15:34:46,118 - ERROR - [download_myportfolio:473] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 460, in download_myportfolio
+    wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(),'My Portfolio')]"))).click()
+  File "c:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2025-05-28 15:34:48,131 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:34:48,251 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/mf/portfoliodetail
+2025-05-28 15:34:54,405 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:34:55,435 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:35:05,792 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:35:05,796 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:35:29,389 - INFO - [download_orderbook:479] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:35:48,061 - INFO - [main:527] - Browser closed
+2025-05-28 15:38:58,760 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 15:38:59,610 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:39:00,408 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:39:01,183 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 15:39:36,532 - INFO - [login:122] - Starting login
+2025-05-28 15:39:54,809 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 15:39:55,063 - INFO - [login:130] - Login button clicked
+2025-05-28 15:39:56,113 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 15:40:42,226 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:40:42,227 - INFO - [main:509] - Processing account IN303028-76957800-6500081466-NRE
+2025-05-28 15:40:42,227 - INFO - [switch_account:179] - Switching to account IN303028-76957800-6500081466-NRE
+2025-05-28 15:41:12,546 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:41:12,571 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:41:12,875 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:41:12,895 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:41:13,205 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:41:14,236 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:41:14,253 - INFO - [switch_account:230] - Selected account IN303028-76957800-6500081466-NRE by exact match
+2025-05-28 15:41:14,272 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:41:14,606 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:41:14,607 - INFO - [switch_account:260] - Switched to account IN303028-76957800-6500081466-NRE
+2025-05-28 15:41:15,610 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:41:27,387 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:41:38,655 - INFO - [download_portfolio:292] - Downloading Portfolio for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:42:03,483 - INFO - [download_portfolio:295] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail
+2025-05-28 15:42:08,663 - INFO - [show_orderbook:310] - Extracting Order Book data for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:42:14,892 - INFO - [show_orderbook:315] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 15:42:17,007 - INFO - [show_orderbook:319] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:42:21,631 - INFO - [show_orderbook:331] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 15:42:21,642 - INFO - [show_orderbook:335] - Found 44 rows in Order Book table
+2025-05-28 15:42:23,451 - INFO - [show_orderbook:366] - Displayed 22 rows for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:42:23,460 - INFO - [show_orderbook:375] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders.csv
+2025-05-28 15:42:23,462 - INFO - [clean_stock_column:401] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders_cleaned.csv
+2025-05-28 15:42:23,462 - INFO - [show_orderbook:380] - Extracted and displayed 22 rows from Order Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:42:23,462 - INFO - [main:509] - Processing account IN303028-76957818-7500062485-NRO
+2025-05-28 15:42:26,067 - INFO - [switch_account:179] - Switching to account IN303028-76957818-7500062485-NRO
+2025-05-28 15:42:56,410 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:42:56,437 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:42:56,755 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:42:56,776 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:42:57,091 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:42:59,211 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:42:59,289 - INFO - [switch_account:230] - Selected account IN303028-76957818-7500062485-NRO by exact match
+2025-05-28 15:42:59,309 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:42:59,603 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:42:59,604 - INFO - [switch_account:260] - Switched to account IN303028-76957818-7500062485-NRO
+2025-05-28 15:43:00,608 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:43:12,125 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:43:21,837 - INFO - [download_portfolio:292] - Downloading Portfolio for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:44:32,633 - INFO - [download_portfolio:295] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail
+2025-05-28 15:44:56,075 - INFO - [show_orderbook:310] - Extracting Order Book data for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:45:00,241 - INFO - [show_orderbook:315] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 15:45:02,890 - INFO - [show_orderbook:319] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:45:05,582 - INFO - [show_orderbook:331] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 15:45:05,591 - INFO - [show_orderbook:335] - Found 8 rows in Order Book table
+2025-05-28 15:45:05,958 - INFO - [show_orderbook:366] - Displayed 4 rows for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:45:05,959 - INFO - [show_orderbook:375] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders.csv
+2025-05-28 15:45:05,960 - INFO - [clean_stock_column:401] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders_cleaned.csv
+2025-05-28 15:45:05,960 - INFO - [show_orderbook:380] - Extracted and displayed 4 rows from Order Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:45:05,975 - INFO - [main:509] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:45:09,688 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:45:39,950 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:45:39,970 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:45:40,276 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:45:40,296 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:45:40,605 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:45:43,152 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:45:43,227 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 15:45:43,248 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:45:43,541 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:45:43,541 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:45:44,546 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:45:54,807 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:46:23,365 - INFO - [download_portfolio:292] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:46:30,402 - INFO - [download_portfolio:295] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail
+2025-05-28 15:46:39,456 - INFO - [show_orderbook:310] - Extracting Order Book data for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:46:43,231 - INFO - [show_orderbook:315] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 15:46:45,899 - INFO - [show_orderbook:319] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:46:47,636 - INFO - [show_orderbook:331] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 15:46:47,645 - INFO - [show_orderbook:335] - Found 1 rows in Order Book table
+2025-05-28 15:46:47,681 - WARNING - [show_orderbook:360] - No data rows found in Order Book table for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:46:47,682 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:46:50,852 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:47:41,118 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:47:41,122 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:47:51,488 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:47:51,492 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:48:29,466 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465309.png
+2025-05-28 15:48:29,487 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465309.html
+2025-05-28 15:48:29,576 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465309.png
+2025-05-28 15:48:29,595 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465309.html
+2025-05-28 15:48:29,597 - ERROR - [download_myportfolio:474] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 464, in download_myportfolio
+    time.sleep(3)  # Wait for the page to load
+  File "c:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 15:48:31,597 - INFO - [download_myportfolio:416] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:49:33,448 - INFO - [download_myportfolio:420] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/mf/portfoliodetail
+2025-05-28 15:49:42,153 - INFO - [download_myportfolio:425] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:49:43,252 - INFO - [download_myportfolio:430] - Angular application is stable in iframe
+2025-05-28 15:49:53,594 - INFO - [download_myportfolio:449] - Switched back to default content
+2025-05-28 15:49:53,599 - INFO - [download_myportfolio:453] - Page stabilized after Back to old MF
+2025-05-28 15:50:19,849 - INFO - [download_orderbook:480] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:50:37,332 - INFO - [main:528] - Browser closed
+2025-05-28 15:53:30,610 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 15:53:31,484 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:53:32,254 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 15:53:33,026 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 15:53:34,091 - INFO - [login:122] - Starting login
+2025-05-28 15:53:50,814 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 15:53:51,024 - INFO - [login:130] - Login button clicked
+2025-05-28 15:53:52,061 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 15:54:49,765 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:54:49,765 - INFO - [main:509] - Processing account IN303028-76957800-6500081466-NRE
+2025-05-28 15:54:49,765 - INFO - [switch_account:179] - Switching to account IN303028-76957800-6500081466-NRE
+2025-05-28 15:55:20,175 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:55:20,198 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:55:20,500 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:55:20,522 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:55:20,874 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:55:22,886 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:55:22,960 - INFO - [switch_account:230] - Selected account IN303028-76957800-6500081466-NRE by exact match
+2025-05-28 15:55:22,985 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:55:23,269 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 15:55:23,269 - INFO - [switch_account:260] - Switched to account IN303028-76957800-6500081466-NRE
+2025-05-28 15:55:24,278 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:55:37,061 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:55:49,737 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:55:49,844 - INFO - [download_portfolio:296] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 15:55:58,423 - INFO - [show_orderbook:311] - Extracting Order Book data for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:55:58,557 - INFO - [show_orderbook:316] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 15:56:01,677 - INFO - [show_orderbook:320] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:56:07,236 - INFO - [show_orderbook:332] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 15:56:07,267 - INFO - [show_orderbook:336] - Found 44 rows in Order Book table
+2025-05-28 15:56:08,878 - INFO - [show_orderbook:367] - Displayed 22 rows for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:56:08,879 - INFO - [show_orderbook:376] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders.csv
+2025-05-28 15:56:08,901 - INFO - [clean_stock_column:402] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders_cleaned.csv
+2025-05-28 15:56:08,901 - INFO - [show_orderbook:381] - Extracted and displayed 22 rows from Order Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 15:56:08,901 - INFO - [main:509] - Processing account IN303028-76957818-7500062485-NRO
+2025-05-28 15:56:08,901 - INFO - [switch_account:179] - Switching to account IN303028-76957818-7500062485-NRO
+2025-05-28 15:56:39,272 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:56:39,294 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:56:39,596 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:56:39,620 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:56:39,923 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:56:41,472 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:56:41,541 - INFO - [switch_account:230] - Selected account IN303028-76957818-7500062485-NRO by exact match
+2025-05-28 15:56:41,563 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:56:41,855 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:56:41,855 - INFO - [switch_account:260] - Switched to account IN303028-76957818-7500062485-NRO
+2025-05-28 15:56:42,855 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:56:53,967 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:57:09,242 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:57:09,350 - INFO - [download_portfolio:296] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 15:57:14,763 - INFO - [show_orderbook:311] - Extracting Order Book data for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:57:14,873 - INFO - [show_orderbook:316] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 15:57:17,002 - INFO - [show_orderbook:320] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:57:19,665 - INFO - [show_orderbook:332] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 15:57:19,673 - INFO - [show_orderbook:336] - Found 8 rows in Order Book table
+2025-05-28 15:57:19,984 - INFO - [show_orderbook:367] - Displayed 4 rows for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:57:19,985 - INFO - [show_orderbook:376] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders.csv
+2025-05-28 15:57:19,987 - INFO - [clean_stock_column:402] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders_cleaned.csv
+2025-05-28 15:57:19,987 - INFO - [show_orderbook:381] - Extracted and displayed 4 rows from Order Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 15:57:19,987 - INFO - [main:509] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:57:19,987 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:57:50,232 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 15:57:50,251 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 15:57:50,541 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:57:50,560 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 15:57:50,865 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:57:52,862 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 15:57:52,934 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 15:57:52,954 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 15:57:53,260 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:57:53,260 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:57:54,274 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:05,325 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465885.png
+2025-05-28 15:58:05,348 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465885.html
+2025-05-28 15:58:05,350 - ERROR - [download_tradebook:287] - Failed to download Trade Book for account IN303028-76957826-7510072528-NPNRO: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 272, in download_tradebook
+    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Trade Book"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 15:58:07,351 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:07,452 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 15:58:19,613 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:19,769 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465899.png
+2025-05-28 15:58:19,790 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465899.html
+2025-05-28 15:58:19,791 - ERROR - [download_portfolio:305] - Failed to download Portfolio for account IN303028-76957826-7510072528-NPNRO: Alert Text: No Record To Download
+Message: unexpected alert open: {Alert text : No Record To Download}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 295, in download_portfolio
+    wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='sub-navlink' and contains(text(), 'Portfolio')]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: No Record To Download
+Message: unexpected alert open: {Alert text : No Record To Download}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 15:58:21,802 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:21,892 - INFO - [download_portfolio:296] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 15:58:26,578 - INFO - [show_orderbook:311] - Extracting Order Book data for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:26,688 - INFO - [show_orderbook:316] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 15:58:28,840 - INFO - [show_orderbook:320] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:58:30,453 - INFO - [show_orderbook:332] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 15:58:30,461 - INFO - [show_orderbook:336] - Found 1 rows in Order Book table
+2025-05-28 15:58:30,491 - WARNING - [show_orderbook:361] - No data rows found in Order Book table for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:30,491 - INFO - [download_myportfolio:417] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 15:58:30,572 - INFO - [download_myportfolio:421] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 15:59:10,806 - INFO - [download_myportfolio:426] - Switched to iframe 'ifrmangwh'
+2025-05-28 15:59:11,321 - INFO - [download_myportfolio:431] - Angular application is stable in iframe
+2025-05-28 15:59:21,852 - INFO - [download_myportfolio:450] - Switched back to default content
+2025-05-28 15:59:21,885 - INFO - [download_myportfolio:454] - Page stabilized after Back to old MF
+2025-05-28 15:59:59,797 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465999.png
+2025-05-28 15:59:59,817 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465999.html
+2025-05-28 15:59:59,915 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465999.png
+2025-05-28 15:59:59,936 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748465999.html
+2025-05-28 15:59:59,936 - ERROR - [download_myportfolio:474] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 464, in download_myportfolio
+    download_menu = wait.until(EC.presence_of_element_located((By.XPATH, "((//div[@id='dvFilter']//div)[2]/ul/li)[1]")))
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:00:01,951 - INFO - [download_myportfolio:417] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:00:02,037 - INFO - [download_myportfolio:421] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/mf/portfoliodetail
+2025-05-28 16:00:09,919 - INFO - [download_myportfolio:426] - Switched to iframe 'ifrmangwh'
+2025-05-28 16:00:09,924 - INFO - [download_myportfolio:431] - Angular application is stable in iframe
+2025-05-28 16:00:20,336 - INFO - [download_myportfolio:450] - Switched back to default content
+2025-05-28 16:00:20,343 - INFO - [download_myportfolio:454] - Page stabilized after Back to old MF
+2025-05-28 16:00:58,251 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466058.png
+2025-05-28 16:00:58,270 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466058.html
+2025-05-28 16:00:58,385 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466058.png
+2025-05-28 16:00:58,415 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466058.html
+2025-05-28 16:00:58,415 - ERROR - [download_myportfolio:474] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 464, in download_myportfolio
+    download_menu = wait.until(EC.presence_of_element_located((By.XPATH, "((//div[@id='dvFilter']//div)[2]/ul/li)[1]")))
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:01:00,428 - INFO - [download_myportfolio:417] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:01:00,522 - INFO - [download_myportfolio:421] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/mf/portfoliodetail
+2025-05-28 16:01:07,917 - INFO - [download_myportfolio:426] - Switched to iframe 'ifrmangwh'
+2025-05-28 16:01:08,946 - INFO - [download_myportfolio:431] - Angular application is stable in iframe
+2025-05-28 16:01:19,275 - INFO - [download_myportfolio:450] - Switched back to default content
+2025-05-28 16:01:19,289 - INFO - [download_myportfolio:454] - Page stabilized after Back to old MF
+2025-05-28 16:01:57,182 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466117.png
+2025-05-28 16:01:57,201 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466117.html
+2025-05-28 16:01:57,281 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466117.png
+2025-05-28 16:01:57,299 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748466117.html
+2025-05-28 16:01:57,300 - ERROR - [download_myportfolio:474] - Failed to download My Portfolio for account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 464, in download_myportfolio
+    download_menu = wait.until(EC.presence_of_element_located((By.XPATH, "((//div[@id='dvFilter']//div)[2]/ul/li)[1]")))
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:01:57,300 - ERROR - [main:522] - Failed processing account IN303028-76957826-7510072528-NPNRO: Message: 
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0032899E]
+	(No symbol) [0x00328D3B]
+	(No symbol) [0x00370E12]
+	(No symbol) [0x0034D2E4]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+2025-05-28 16:01:59,505 - INFO - [main:528] - Browser closed
+2025-05-28 16:13:06,158 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 16:13:06,949 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 16:13:07,986 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 16:13:08,761 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 16:13:09,829 - INFO - [login:122] - Starting login
+2025-05-28 16:13:28,360 - INFO - [login:125] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 16:13:28,568 - INFO - [login:130] - Login button clicked
+2025-05-28 16:13:29,606 - INFO - [login:146] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 16:14:18,616 - INFO - [login:158] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:14:18,616 - INFO - [main:512] - Processing account IN303028-76957800-6500081466-NRE
+2025-05-28 16:14:18,617 - INFO - [switch_account:179] - Switching to account IN303028-76957800-6500081466-NRE
+2025-05-28 16:14:48,962 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:14:48,985 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:14:49,289 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:14:49,304 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:14:49,618 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:14:51,125 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:14:51,140 - INFO - [switch_account:230] - Selected account IN303028-76957800-6500081466-NRE by exact match
+2025-05-28 16:14:51,157 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:14:51,442 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:14:51,442 - INFO - [switch_account:260] - Switched to account IN303028-76957800-6500081466-NRE
+2025-05-28 16:14:52,447 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:15:06,744 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:15:19,426 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:15:19,516 - INFO - [download_portfolio:296] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:15:31,663 - INFO - [show_orderbook:312] - Extracting Order Book data for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:15:31,763 - INFO - [show_orderbook:317] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 16:15:33,923 - INFO - [show_orderbook:321] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:15:39,548 - INFO - [show_orderbook:334] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 16:15:39,558 - INFO - [show_orderbook:338] - Found 44 rows in Order Book table
+2025-05-28 16:15:41,190 - INFO - [show_orderbook:369] - Displayed 22 rows for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:15:41,190 - INFO - [show_orderbook:378] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders.csv
+2025-05-28 16:15:41,213 - INFO - [clean_stock_column:405] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders_cleaned.csv
+2025-05-28 16:15:43,224 - INFO - [show_orderbook:384] - Extracted and displayed 22 rows from Order Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:15:43,224 - INFO - [main:512] - Processing account IN303028-76957818-7500062485-NRO
+2025-05-28 16:15:43,224 - INFO - [switch_account:179] - Switching to account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:13,520 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:16:13,539 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:16:13,839 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:16:13,864 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:16:14,156 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:16:16,178 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:16:16,247 - INFO - [switch_account:230] - Selected account IN303028-76957818-7500062485-NRO by exact match
+2025-05-28 16:16:16,276 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:16:16,570 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:16:16,570 - INFO - [switch_account:260] - Switched to account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:17,584 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:28,822 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957818-7500062485-NRO_1748466988.png
+2025-05-28 16:16:28,851 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957818-7500062485-NRO_1748466988.html
+2025-05-28 16:16:28,852 - ERROR - [download_tradebook:287] - Failed to download Trade Book for account IN303028-76957818-7500062485-NRO: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 272, in download_tradebook
+    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Trade Book"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:16:30,859 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:30,955 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:16:43,679 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:43,782 - INFO - [download_portfolio:296] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:16:52,991 - INFO - [show_orderbook:312] - Extracting Order Book data for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:53,084 - INFO - [show_orderbook:317] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 16:16:55,286 - INFO - [show_orderbook:321] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:16:57,447 - INFO - [show_orderbook:334] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 16:16:57,454 - INFO - [show_orderbook:338] - Found 8 rows in Order Book table
+2025-05-28 16:16:57,745 - INFO - [show_orderbook:369] - Displayed 4 rows for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:57,745 - INFO - [show_orderbook:378] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders.csv
+2025-05-28 16:16:57,753 - INFO - [clean_stock_column:405] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders_cleaned.csv
+2025-05-28 16:16:59,754 - INFO - [show_orderbook:384] - Extracted and displayed 4 rows from Order Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:16:59,754 - INFO - [main:512] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:16:59,754 - INFO - [switch_account:179] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:17:30,162 - WARNING - [switch_account:196] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:17:30,180 - INFO - [switch_account:191] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:17:30,467 - INFO - [switch_account:193] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:17:30,486 - INFO - [switch_account:211] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:17:30,801 - INFO - [switch_account:213] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:17:32,839 - INFO - [switch_account:225] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:17:32,907 - INFO - [switch_account:230] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 16:17:32,928 - INFO - [switch_account:250] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:17:33,256 - INFO - [switch_account:252] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:17:33,256 - INFO - [switch_account:260] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:17:34,260 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:17:43,997 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748467063.png
+2025-05-28 16:17:44,022 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748467063.html
+2025-05-28 16:17:44,023 - ERROR - [download_tradebook:287] - Failed to download Trade Book for account IN303028-76957826-7510072528-NPNRO: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 272, in download_tradebook
+    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Trade Book"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:17:46,032 - INFO - [download_tradebook:270] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:17:46,131 - INFO - [download_tradebook:273] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:17:58,311 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:17:58,475 - INFO - [save_debug_info:77] - Screenshot saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748467078.png
+2025-05-28 16:17:58,507 - INFO - [save_debug_info:80] - Page source saved to D:\Upwork project\Automation\downloads\error_IN303028-76957826-7510072528-NPNRO_1748467078.html
+2025-05-28 16:17:58,508 - ERROR - [download_portfolio:306] - Failed to download Portfolio for account IN303028-76957826-7510072528-NPNRO: Alert Text: No Record To Download
+Message: unexpected alert open: {Alert text : No Record To Download}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 295, in download_portfolio
+    wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='sub-navlink' and contains(text(), 'Portfolio')]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: No Record To Download
+Message: unexpected alert open: {Alert text : No Record To Download}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:18:00,514 - INFO - [download_portfolio:293] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:18:00,611 - INFO - [download_portfolio:296] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:18:09,857 - INFO - [show_orderbook:312] - Extracting Order Book data for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:18:09,953 - INFO - [show_orderbook:317] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 16:18:12,984 - INFO - [show_orderbook:321] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:18:15,131 - INFO - [show_orderbook:334] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 16:18:15,138 - INFO - [show_orderbook:338] - Found 1 rows in Order Book table
+2025-05-28 16:18:15,158 - WARNING - [show_orderbook:363] - No data rows found in Order Book table for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:18:15,158 - INFO - [download_myportfolio:420] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:18:15,250 - INFO - [download_myportfolio:424] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:19:00,368 - INFO - [download_myportfolio:429] - Switched to iframe 'ifrmangwh'
+2025-05-28 16:19:00,893 - INFO - [download_myportfolio:434] - Angular application is stable in iframe
+2025-05-28 16:19:11,253 - INFO - [download_myportfolio:453] - Switched back to default content
+2025-05-28 16:19:11,258 - INFO - [download_myportfolio:457] - Page stabilized after Back to old MF
+2025-05-28 16:19:24,674 - INFO - [download_orderbook:483] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:19:36,865 - INFO - [main:531] - Browser closed
+2025-05-28 16:30:56,220 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 16:30:56,994 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 16:30:57,752 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 16:30:58,513 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 16:30:59,581 - INFO - [login:106] - Starting login
+2025-05-28 16:31:17,617 - INFO - [login:109] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 16:31:17,809 - INFO - [login:114] - Login button clicked
+2025-05-28 16:31:18,342 - INFO - [login:130] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 16:32:03,100 - INFO - [login:142] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:32:03,100 - INFO - [main:498] - Processing account IN303028-76957800-6500081466-NRE
+2025-05-28 16:32:03,100 - INFO - [switch_account:162] - Switching to account IN303028-76957800-6500081466-NRE
+2025-05-28 16:32:33,418 - WARNING - [switch_account:179] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:32:33,438 - INFO - [switch_account:174] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:32:33,728 - INFO - [switch_account:176] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:32:33,745 - INFO - [switch_account:194] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:32:34,041 - INFO - [switch_account:196] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:32:36,010 - INFO - [switch_account:208] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:32:36,025 - INFO - [switch_account:213] - Selected account IN303028-76957800-6500081466-NRE by exact match
+2025-05-28 16:32:36,040 - INFO - [switch_account:233] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:32:36,331 - INFO - [switch_account:235] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:32:36,332 - INFO - [switch_account:243] - Switched to account IN303028-76957800-6500081466-NRE
+2025-05-28 16:32:37,342 - INFO - [download_tradebook:252] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:32:48,549 - INFO - [download_tradebook:255] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:33:29,059 - ERROR - [download_tradebook:269] - Failed to download Trade Book for account IN303028-76957800-6500081466-NRE: No file matching TradeBook found in 30 seconds for account IN303028-76957800-6500081466-NRE
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 265, in download_tradebook
+    downloaded_file = wait_for_download(account_id, "TradeBook")
+  File "D:\Upwork project\Automation\main.py", line 74, in wait_for_download
+    raise TimeoutError(f"No file matching {partial_name} found in {timeout} seconds for account {account_id}")
+TimeoutError: No file matching TradeBook found in 30 seconds for account IN303028-76957800-6500081466-NRE
+
+2025-05-28 16:33:31,062 - INFO - [download_tradebook:252] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:33:31,162 - INFO - [download_tradebook:255] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:33:38,409 - ERROR - [download_tradebook:269] - Failed to download Trade Book for account IN303028-76957800-6500081466-NRE: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 261, in download_tradebook
+    download_menu = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dvequity']//div[@class='pull-right']")))
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:33:40,416 - INFO - [download_tradebook:252] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:33:40,420 - ERROR - [download_tradebook:269] - Failed to download Trade Book for account IN303028-76957800-6500081466-NRE: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 254, in download_tradebook
+    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Trade Book"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:33:40,420 - ERROR - [main:511] - Failed processing account IN303028-76957800-6500081466-NRE: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+2025-05-28 16:33:40,420 - INFO - [main:498] - Processing account IN303028-76957818-7500062485-NRO
+2025-05-28 16:33:40,420 - INFO - [switch_account:162] - Switching to account IN303028-76957818-7500062485-NRO
+2025-05-28 16:34:10,942 - WARNING - [switch_account:179] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:34:10,962 - INFO - [switch_account:174] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:34:11,268 - INFO - [switch_account:176] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook
+2025-05-28 16:34:11,291 - INFO - [switch_account:194] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:34:11,602 - INFO - [switch_account:196] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook
+2025-05-28 16:34:13,155 - INFO - [switch_account:208] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:34:13,259 - INFO - [switch_account:213] - Selected account IN303028-76957818-7500062485-NRO by exact match
+2025-05-28 16:34:13,277 - INFO - [switch_account:233] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:34:13,564 - INFO - [switch_account:235] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook
+2025-05-28 16:34:13,564 - INFO - [switch_account:243] - Switched to account IN303028-76957818-7500062485-NRO
+2025-05-28 16:34:14,572 - INFO - [download_tradebook:252] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:34:25,569 - ERROR - [download_tradebook:269] - Failed to download Trade Book for account IN303028-76957818-7500062485-NRO: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 254, in download_tradebook
+    wait.until(EC.element_to_be_clickable((By.LINK_TEXT, "Trade Book"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 119, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 572, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x002F2061]
+	(No symbol) [0x002F1140]
+	(No symbol) [0x002E7880]
+	(No symbol) [0x002E5D81]
+	(No symbol) [0x002E90CA]
+	(No symbol) [0x002E9147]
+	(No symbol) [0x0032A66A]
+	(No symbol) [0x0031E52A]
+	(No symbol) [0x0034D29C]
+	(No symbol) [0x0031E034]
+	(No symbol) [0x0034D514]
+	(No symbol) [0x0036E61B]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:34:27,579 - INFO - [download_tradebook:252] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:34:27,700 - INFO - [download_tradebook:255] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:35:08,685 - ERROR - [download_tradebook:269] - Failed to download Trade Book for account IN303028-76957818-7500062485-NRO: No file matching TradeBook found in 30 seconds for account IN303028-76957818-7500062485-NRO
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 265, in download_tradebook
+    downloaded_file = wait_for_download(account_id, "TradeBook")
+  File "D:\Upwork project\Automation\main.py", line 74, in wait_for_download
+    raise TimeoutError(f"No file matching {partial_name} found in {timeout} seconds for account {account_id}")
+TimeoutError: No file matching TradeBook found in 30 seconds for account IN303028-76957818-7500062485-NRO
+
+2025-05-28 16:35:10,700 - INFO - [download_tradebook:252] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:35:10,868 - INFO - [download_tradebook:255] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:35:18,960 - ERROR - [download_tradebook:269] - Failed to download Trade Book for account IN303028-76957818-7500062485-NRO: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 261, in download_tradebook
+    download_menu = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[@id='dvequity']//div[@class='pull-right']")))
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:35:18,960 - ERROR - [main:511] - Failed processing account IN303028-76957818-7500062485-NRO: Alert Text: Invalid Date
+Message: unexpected alert open: {Alert text : Invalid Date}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+2025-05-28 16:35:18,960 - INFO - [main:498] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:35:18,960 - INFO - [switch_account:162] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:35:24,673 - WARNING - [switch_account:179] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:35:24,675 - WARNING - [switch_account:179] - Failed to find account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:35:26,731 - WARNING - [switch_account:179] - Failed to find account button with locator ('xpath', "//a[contains(@class, 'dropdown-toggle')]")
+2025-05-28 16:35:26,731 - ERROR - [switch_account:246] - Failed to switch to account IN303028-76957826-7510072528-NPNRO: Account switch button not found
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\main.py", line 182, in switch_account
+    raise Exception("Account switch button not found")
+Exception: Account switch button not found
+
+2025-05-28 16:36:42,195 - INFO - [log:11] - ====== WebDriver manager ======
+2025-05-28 16:36:42,955 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 16:36:43,740 - INFO - [log:11] - Get LATEST chromedriver version for google-chrome
+2025-05-28 16:36:44,512 - INFO - [log:11] - Driver [C:\Users\Achilles\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-28 16:36:45,585 - INFO - [login:108] - Starting login
+2025-05-28 16:37:02,558 - INFO - [login:111] - Navigated to login page. Title: ICICI Direct Customer Login - Desktop, URL: https://secure.icicidirect.com/customer/login
+2025-05-28 16:37:02,764 - INFO - [login:116] - Login button clicked
+2025-05-28 16:37:03,824 - INFO - [login:132] - OTP page detected. Waiting for manual OTP entry on website.
+2025-05-28 16:37:52,158 - INFO - [login:144] - Dashboard detected. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:37:52,158 - INFO - [main:490] - Processing account IN303028-76957800-6500081466-NRE
+2025-05-28 16:37:52,158 - INFO - [switch_account:164] - Switching to account IN303028-76957800-6500081466-NRE
+2025-05-28 16:38:22,521 - WARNING - [switch_account:181] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:38:22,552 - INFO - [switch_account:176] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:38:22,858 - INFO - [switch_account:178] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:38:22,877 - INFO - [switch_account:196] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:38:23,176 - INFO - [switch_account:198] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:38:24,673 - INFO - [switch_account:210] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:38:24,688 - INFO - [switch_account:215] - Selected account IN303028-76957800-6500081466-NRE by exact match
+2025-05-28 16:38:24,706 - INFO - [switch_account:235] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:38:24,990 - INFO - [switch_account:237] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/home
+2025-05-28 16:38:24,990 - INFO - [switch_account:245] - Switched to account IN303028-76957800-6500081466-NRE
+2025-05-28 16:38:25,996 - INFO - [download_tradebook:254] - Downloading Trade Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:38:37,651 - INFO - [download_tradebook:257] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:38:50,005 - INFO - [download_portfolio:276] - Downloading Portfolio for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:38:50,143 - INFO - [download_portfolio:279] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:39:02,886 - INFO - [show_orderbook:294] - Extracting Order Book data for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:39:02,986 - INFO - [show_orderbook:299] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 16:39:05,614 - INFO - [show_orderbook:303] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:39:09,806 - INFO - [show_orderbook:316] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 16:39:09,816 - INFO - [show_orderbook:320] - Found 44 rows in Order Book table
+2025-05-28 16:39:11,468 - INFO - [show_orderbook:351] - Displayed 22 rows for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:39:11,500 - INFO - [show_orderbook:360] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders.csv
+2025-05-28 16:39:11,502 - INFO - [clean_stock_column:386] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957800-6500081466-NRE_orders_cleaned.csv
+2025-05-28 16:39:13,509 - INFO - [show_orderbook:366] - Extracted and displayed 22 rows from Order Book for account IN303028-76957800-6500081466-NRE
+2025-05-28 16:39:13,509 - INFO - [main:490] - Processing account IN303028-76957818-7500062485-NRO
+2025-05-28 16:39:13,509 - INFO - [switch_account:164] - Switching to account IN303028-76957818-7500062485-NRO
+2025-05-28 16:39:43,949 - WARNING - [switch_account:181] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:39:44,000 - INFO - [switch_account:176] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:39:44,308 - INFO - [switch_account:178] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:39:44,325 - INFO - [switch_account:196] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:39:44,620 - INFO - [switch_account:198] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:39:46,152 - INFO - [switch_account:210] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:39:46,293 - INFO - [switch_account:215] - Selected account IN303028-76957818-7500062485-NRO by exact match
+2025-05-28 16:39:46,312 - INFO - [switch_account:235] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:39:46,599 - INFO - [switch_account:237] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:39:46,599 - INFO - [switch_account:245] - Switched to account IN303028-76957818-7500062485-NRO
+2025-05-28 16:39:47,613 - INFO - [download_tradebook:254] - Downloading Trade Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:39:59,277 - INFO - [download_tradebook:257] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:40:12,011 - INFO - [download_portfolio:276] - Downloading Portfolio for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:40:12,100 - INFO - [download_portfolio:279] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:40:21,347 - INFO - [show_orderbook:294] - Extracting Order Book data for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:40:21,465 - INFO - [show_orderbook:299] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 16:40:24,451 - INFO - [show_orderbook:303] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:40:26,620 - INFO - [show_orderbook:316] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 16:40:26,628 - INFO - [show_orderbook:320] - Found 8 rows in Order Book table
+2025-05-28 16:40:26,918 - INFO - [show_orderbook:351] - Displayed 4 rows for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:40:26,919 - INFO - [show_orderbook:360] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders.csv
+2025-05-28 16:40:26,926 - INFO - [clean_stock_column:386] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957818-7500062485-NRO_orders_cleaned.csv
+2025-05-28 16:40:28,941 - INFO - [show_orderbook:366] - Extracted and displayed 4 rows from Order Book for account IN303028-76957818-7500062485-NRO
+2025-05-28 16:40:28,941 - INFO - [main:490] - Processing account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:40:28,941 - INFO - [switch_account:164] - Switching to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:40:59,461 - WARNING - [switch_account:181] - Failed to find account button with locator ('css selector', '.mrl10')
+2025-05-28 16:40:59,493 - INFO - [switch_account:176] - Found account button with locator ('xpath', "//a[@id='dropdownMenuButton1']/span[2]")
+2025-05-28 16:40:59,779 - INFO - [switch_account:178] - Clicked account button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:40:59,796 - INFO - [switch_account:196] - Found account option with locator ('css selector', '.p-2:nth-child(2) .fw-bold')
+2025-05-28 16:41:00,100 - INFO - [switch_account:198] - Clicked account option. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:41:01,611 - INFO - [switch_account:210] - Available account IDs: ['IN303028-76957800-6500081466-NRE', 'IN303028-76957818-7500062485-NRO', 'IN303028-76957826-7510072528-NPNRO']
+2025-05-28 16:41:01,737 - INFO - [switch_account:215] - Selected account IN303028-76957826-7510072528-NPNRO by exact match
+2025-05-28 16:41:01,761 - INFO - [switch_account:235] - Found confirm button with locator ('css selector', '.btn-short')
+2025-05-28 16:41:02,045 - INFO - [switch_account:237] - Clicked confirm button. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:41:02,045 - INFO - [switch_account:245] - Switched to account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:03,048 - INFO - [download_tradebook:254] - Downloading Trade Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:13,399 - INFO - [download_tradebook:257] - Clicked Trade Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/cashbuy
+2025-05-28 16:41:26,203 - INFO - [download_portfolio:276] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:26,209 - ERROR - [download_portfolio:288] - Failed to download Portfolio for account IN303028-76957826-7510072528-NPNRO: Alert Text: No Record To Download
+Message: unexpected alert open: {Alert text : No Record To Download}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+Traceback (most recent call last):
+  File "D:\Upwork project\Automation\icici_extract.py", line 278, in download_portfolio
+    wait.until(EC.element_to_be_clickable((By.XPATH, "//a[@class='sub-navlink' and contains(text(), 'Portfolio')]"))).click()
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 137, in until
+    value = method(self._driver)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 633, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 917, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 448, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Achilles\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: No Record To Download
+Message: unexpected alert open: {Alert text : No Record To Download}
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x004BFC03+61635]
+	GetHandleVerifier [0x004BFC44+61700]
+	(No symbol) [0x002E05D3]
+	(No symbol) [0x0036EF4E]
+	(No symbol) [0x0034D096]
+	(No symbol) [0x0031C840]
+	(No symbol) [0x0031D6A4]
+	GetHandleVerifier [0x00744523+2701795]
+	GetHandleVerifier [0x0073FCA6+2683238]
+	GetHandleVerifier [0x0075A9EE+2793134]
+	GetHandleVerifier [0x004D68C5+155013]
+	GetHandleVerifier [0x004DCFAD+181357]
+	GetHandleVerifier [0x004C7458+92440]
+	GetHandleVerifier [0x004C7600+92864]
+	GetHandleVerifier [0x004B1FF0+5296]
+	BaseThreadInitThunk [0x75AD5D49+25]
+	RtlInitializeExceptionChain [0x770FD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x770FCFC1+561]
+
+
+2025-05-28 16:41:28,214 - INFO - [download_portfolio:276] - Downloading Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:28,302 - INFO - [download_portfolio:279] - Clicked Portfolio link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/tradebook#
+2025-05-28 16:41:37,500 - INFO - [show_orderbook:294] - Extracting Order Book data for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:37,587 - INFO - [show_orderbook:299] - Clicked Order Book link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/portfoliodetail#
+2025-05-28 16:41:40,161 - INFO - [show_orderbook:303] - Clicked GTT tab. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:41:42,299 - INFO - [show_orderbook:316] - Extracted headers: ['Stock', 'Date', 'Buy/Sell', 'LTP', 'Trigger Price', 'Limit Price', 'Quantity', 'Status', 'Actions']
+2025-05-28 16:41:42,307 - INFO - [show_orderbook:320] - Found 1 rows in Order Book table
+2025-05-28 16:41:42,325 - INFO - [show_orderbook:351] - Displayed 1 rows for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:42,339 - INFO - [show_orderbook:360] - Orders saved to D:\Upwork project\Automation\downloads\IN303028-76957826-7510072528-NPNRO_orders.csv
+2025-05-28 16:41:42,347 - INFO - [clean_stock_column:386] - Cleaned Stock column and saved to D:\Upwork project\Automation\downloads\IN303028-76957826-7510072528-NPNRO_orders_cleaned.csv
+2025-05-28 16:41:44,356 - INFO - [show_orderbook:366] - Extracted and displayed 1 rows from Order Book for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:44,356 - INFO - [download_myportfolio:401] - Downloading My Portfolio for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:41:44,436 - INFO - [download_myportfolio:405] - Clicked Mutual Funds link. Title: ICICI Direct, URL: https://secure.icicidirect.com/trading/equity/orderbook
+2025-05-28 16:42:32,263 - INFO - [download_myportfolio:410] - Switched to iframe 'ifrmangwh'
+2025-05-28 16:42:32,267 - INFO - [download_myportfolio:415] - Angular application is stable in iframe
+2025-05-28 16:42:42,609 - INFO - [download_myportfolio:434] - Switched back to default content
+2025-05-28 16:42:42,616 - INFO - [download_myportfolio:438] - Page stabilized after Back to old MF
+2025-05-28 16:42:56,612 - INFO - [download_orderbook:462] - Downloading Orderbook for account IN303028-76957826-7510072528-NPNRO
+2025-05-28 16:43:08,772 - INFO - [main:509] - Browser closed

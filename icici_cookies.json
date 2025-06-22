@@ -1,0 +1,302 @@
+[
+  {
+    "name": "_utmzzses",
+    "value": "1",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1748289360450.521845218585234373",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1759146972000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.100895507.1748289360",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga_0R4N51T04T",
+    "value": "GS2.1.s1748289359$o1$g1$t1748291453$j0$l0$h0",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga_2KB04WCCC2",
+    "value": "GS2.1.s1748289448$o1$g1$t1748291452$j15$l0$h0$dlvQp5aO161H7gbeAL_Vxz6bwn00pa-uTbA",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1788118852278,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga_87Q2JHESYW",
+    "value": "GS2.1.s1748289449$o1$g1$t1748291452$j15$l0$h0$dCmQaSfaNwdo9hmBv3B_-oZlN9nHaoi-CNQ",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1788118852288,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.905769481.1748289440",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1759147040000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_sc",
+    "value": "ST40GzSWLXE0gvBIsomUGBl+dNkAEflK5QQDNYLpzvgg5KRRTSpOkDSgc5de12jlSrv+ccUIa3ht1hHZ9wUwRv+xiiOrAqqlFcEsEqeToPic4ZjK9G2Dknlsx64O46UftFWN9gOEh+f05zlOEl4y53etiLAOvOB3f795qM4KEHM0AnJSdj3INViSoQCgFPUH0j2JQA6jnwsuxud+ejm4bqgzTzvnzy66boN+dVBMHswl/RxhhmtCA3u6npa2N9gtqDRmiPpChBQ1FmyuPLHFG2AgWk4AFgM2NV8YXLw1CVzbFxn9oPwjwUa734iKiiHJn5Q/JevKI6qyWDNgsNOX+AnbAj4Sa9HTRhiUIpyTx9xbNdW1Szk9OgjGzRk8PutOHEzSybgV/uih00rhsN7bnTKKv6Z61Q7GjrSdJiWGLpEws+dzDSmFL8SiaMTz+D1CVYxW57o2ZfqzxH8idkECaw5T0zNq8q+QqtrtFYhrAlaPz1RAv59f2Hy0XxquPa9z6j6vcSEkevRUobEsITSXoS2o8aztXMrq8KGjkZigsRPSeFyuW2d/Mjk7dc3WdbNn2VqlPGfDJn9t5FFHVSUfTNJGgYdAskV+mjs51yqCAqlbhMHOFHoHz7lm8WvAjAR+5EPvebrfXj+JphReNfT7Ehzj1lt9HDmLzujP5YlyHSy07/tOSrJagcZ9NXEtnQmgST9Z+WmkJLRbwyA9LcOjZYYtCxgQLZ2v6E8dJS1kOLQg3Rz8Eld7W2cR5KBfzavlE24ZYq95X64brkHvlQhQMiqDC//ytYc6uyy2cMVzcfM0bJ4WLzhkoey1k1Twm+JB",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_su",
+    "value": "ST0kdcuV5PsXxWgxNDmXsRd6k7FRKK4bKyACR1jBv0Zykdc6sDQfEGzmkwZtY0X52fhD8JKr67ooh+VZJGEpfFQv5gnQ+vruf2no3fllWzQjScB1LYTQdAFs0TucF/xNe8UH/eOVRmHdBofpAZr8ZJY5xXzG7R3G1Hmrlhw48aFmNp9drH3FWLV25/KNvIb2RhhsQzuTKZdzJxU+RXKaNf4u15PkRiDPi3COKK4j4N97mfh5DGcS4GnhUXOEjVjqRsOi5Qo216jmGkUdC/wuyZzWzl76mF1J4f1s2A+hUu6aO0ITzZh46QIA5W6QHd6mdRkavfWeFzdwyu87uWu6jcp6o6vpCKtojSQCcITVLXE6lD9STkKJ3TlVOH3gjo3pYUeF8Jc7GCIKZUkrOYy+Lpzeb8RGFuCtk8rW3odbK5LdktjYBjfqvzf2+JIfQIwydnz/m0LZgA3zPjO3Ei9gFTh1mrtmuwSHIweMhnpZM6C/VOL90KTM0FHFYHmSXNZPfIQeJSrVSNj/FYmFJCv584uP953xW8YmZzqTb/uwDP7mIgBDONVJhqEp7HcCLesuAWoH3g6UYBCs2YtnUbWoJlwKwu4k+vnO10CMcjpFyBOPIK600vCTzDOM1fb25iqc",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_sun",
+    "value": "ST0kdcuV5PsXxWgxNDmXsRd6k7FRKK4bKyACR1jBv0Zykdc6sDQfEGzmkwZtY0X52fhD8JKr67ooh+VZJGEpfFQv5gnQ+vruf2no3fllWzRVzd3UdTdzfFcleZeq7kK5uQn71HCMBRv/BGSkgH3v+VCPUmPBLNeYeRMKeMn2W2AfyF53wcb7Sn01vEdRGy4Q7e5GwCe6O7RISwiTOmCIO/wCDqd7krHTOkkJ2wqJrwt/tLVdW0x5m2CgloRyVijAcDFUWkjIdFrhzr3pA27a8WVQ1PdLFXGSQLCXYs7rCSLr82IVGtUgTb9Fl78Ii5oFgehRExoV1lDGA2Cy9xJp/JbrBoEatypAtahQ6JV8qyEM5K/TGGA92NTnPdho5fsLI/xvnSjUSafjYDJasRaEgGvydPz7xA/4jh+TDeRsfVaLeuurCQU6alVN5h+tKTNXJbUR/K4d9AvfPoBd9WDIXV41btcFHn4U0bqOEzdmjjICvUPrqEu9CEwRb1WWLPIkKPhcPJfkRgzV/THilQKlREaACEhcZqE4NVwAnLelz+AWUcy5MGRSV9U2DM8ncCNiutr/yr3cdKRM2+cAjw86ApME5C+K0GnqNGhDILjzRPM0EryXlaqKQ71VRGIX4qA/2RiK6ckaJnJufDEux7SS/ORmJdqHVCE7wGMwqPezDpAMP7OutZYUwMalNG/KZAnkiLod32sEDKDmVzXzkBAdwwYHZgS1ZcbPBadhkQ8qVlW1AgnJ8+YuKknsWC3V6cJOS7qqXI/2DaYg23MNmuebe9tBKzizNmoCw7ajEcU+gWZg8SaRvnYUWm+yAOlI6mim//2yDcWgTy5yesZIqiv/MppZ3pENN8bD8k0jwqa6uNNjFKSKuf9t7SnfTH721aWefjOfArPmnRsHbFGVhHAaUfUNYY9wCeGcyFiUzZQhvn6CanJl6MijTVvpCRXo7dvR7UKi3PaPDHSsx0KX3p87xqfdl5GsI1/ohX6+m+OhKBNIu2+P4sgAY/D1yL7lvzdDzpmYj6JRisRpH6kMtR/nLSy6FpbRj4K0qZGC35MK9Iv7UYX7cG4DswObQO57y1h1lsNQI7hu8wZHRSVxHP2bBFPojhOkXzwhhyEnkTPdbuI=",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "34672884ff1f062b81ee0db3cdd692d5",
+    "value": "!iSkMbRj0lgLZ9Ywjq3FtkSpufU+XN018djnAueBzycbQUM+UkZ6TYBC5hdo8kGHS+xn537jGJ2tgvt8=",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "AMCV_D5E34727629861B60A495EC6%40AdobeOrg",
+    "value": "179643557%7CMCIDTS%7C20235%7CMCMID%7C36555306393808966796824233176251015960%7CMCOPTOUT-1748298652s%7CNONE%7CvVersion%7C5.5.0",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1788118852153,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "AMCVS_D5E34727629861B60A495EC6%40AdobeOrg",
+    "value": "1",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ASP.NET_SessionId",
+    "value": "43cibb1m24jf4ka43v5ojtg4",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "BIGipServerPool_traderweb.icicidirect.com",
+    "value": "1581584556.47873.0000",
+    "domain": "traderweb.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "cust_id",
+    "value": "52524849484848535049",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1767177600000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "customerSegment",
+    "value": "Retail",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1767177600000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "customerType",
+    "value": "Customer",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": 1767177600000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "initialTrafficSource",
+    "value": "utmcsr=(direct)|utmcmd=(none)|utmccn=(not set)",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "InterSecure",
+    "value": "Ex2XLXJFEKwLcSRG7UooHw$$",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ir",
+    "value": "ikuNYZl4Qja35FOPK+I+ir3/DXNoJ17MJHITQre7fAgPQepryKU5Q49NEJEoKjo2REqfjgasCt0cpPuvIMoHDyl2VCxKjO5x7HSHEepQptfpIECz2u+Fdq2Mx5FLp6xpKwRuiR8Wtxx+6eddTcgnJ0OrddY5e4tLC1xBN+RqdWjjba9m4O0gP3bGRJQaM05YAGTU15JxaEKePrqNi5icww==",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "s_gpv",
+    "value": "trading:equity:home",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": 1748301652000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "s_hc",
+    "value": "2",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": 1748301652000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "s_nr30",
+    "value": "1748291452097-Repeat",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": 1751082652000,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "TS01109ae9",
+    "value": "017b54b0f342fd2c2a5b5359cee0ef88c4a96b460d9794344854f2ae5c060c5051d9b1f576f8edf14c157d397f1bf8ed52ba101fd55e009798e1827ef7e5b56ba0abb9ea74",
+    "domain": ".traderweb.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "TS019fc7a5",
+    "value": "017b54b0f3cd2ac88125ce90935434b0aacc707001c975693fa95378a673b00f892f3e7fe35dce41b5cff8338517788f1129419b96ca6ee4c90923c07c875d5bc783b8c3c3a6879d4b73ee44b47dd287a1dd8f0eab4775b0a87a753696ee815e691625ef9c0c1efd61464795135863cb255acfe5a56149930b24edb7992f4c66693597aa2861781b333f4e888aa12039df3a8c7ab230239cdeb1356a00ed633db1954d85642cb513637dc8d4b70949878aea129774f6ad71f18824d8190bc453446e2e9e81852ed29bfa0ac212970af74a5719ad6f2966f2204a9fda87eccdd9b3038e70d35acf2de038dcd5b7d5a3e1205b27d0db59a0b03800d7ffdf862aa2bc433e17b8d6fba1681c4b40a5f96bc9a49d2b134d",
+    "domain": ".secure.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "TS66a1f6b6027",
+    "value": "08ec943147ab200040421972547dc3fabf08932ac020769d123b64140c772e36bf0982b03c9d98ec08f8e697c511300071baca18f2bbfe6ed3ae3421d886a6735fd503f9dacadb48c088c3242fdb4e52b46990d4e538a4cb3be69150615c0cde",
+    "domain": "traderweb.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "tvc_utm",
+    "value": "undefined",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ASP.NET_SessionId",
+    "value": "43cibb1m24jf4ka43v5ojtg4",
+    "domain": "secure.icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_sc",
+    "value": "ST40GzSWLXE0gvBIsomUGBl...",
+    "domain": ".icicidirect.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  }
+]

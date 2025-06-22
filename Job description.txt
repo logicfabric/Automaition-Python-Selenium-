@@ -1,0 +1,18 @@
+Summary
+From Icicidirect broker account, I want to extract trade, order, portfolio info from 4 sub accounts. Another developer has already written some selenium and python code but it is not consistent.
+Ideally, I would like to just launch one script and get all info.
+Trade, Portfolio info is available to be downloaded as CSV file.
+Order info needs to be extracted from the screen.
+
+I have attached current code
+
+Chatting history
+===================================
+Thanks for your response - I would like to work with you.
+So you will work remotely on my machine using ANydesk? what you will prefer
+You will have to install needed dev software.
+
+====================================================
+Python --v
+pip install selenium webdriver-manager python-dotenv retrying
+shows run commands -> Python: Select Interpreter
